@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Jesús Sánchez">
+    <meta name="description" content="Landing page with blur effect">
+    <title>Nathaniel Feltner</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="showcase">
+      <div class="content">
+        <img
+          src="./imgs/codeHexagon.png"
+          class="logo"
+          alt="Code Hexagon logo"
+        />
+        <div class="title">
+          Nathaniel Feltner
+        </div>
+        <div class="text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
+          et.
+        </div>
+      </div>
+    </header>
+
+    <!-- Services -->
+    <section class="services">
+      <div class="container grid-3 center">
+        <div>
+          <i class="fab fa-youtube fa-3x"></i>
+          <h3>YouTube</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            eaque!
+          </p>
+        </div>
+        <div>
+          <i class="fas fa-chalkboard-teacher fa-3x"></i>
+          <h3>Courses</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            eaque!
+          </p>
+        </div>
+        <div>
+          <i class="fas fa-briefcase fa-3x"></i>
+          <h3>Freelancing Projects</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            eaque!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about bg-light">
+      <div class="container">
+        <div class="grid-2">
+          <div class="center">
+            <i class="fas fa-laptop-code fa-10x"></i>
+          </div>
+          <div class="center">
+            <h3>About Me</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Molestiae minima iusto iste saepe culpa, quo ratione similique
+              modi reprehenderit at rem voluptatem facilis animi nam velit, quam
+              ipsam amet blanditiis voluptate officia asperiores necessitatibus
+              vero? Consequatur placeat deleniti vel iusto?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="center bg-dark">
+      <p></p>
+    </footer>
+
+    <script>
+      let today = new Date();
+      let year = today.getFullYear();
+
+      let p = document.querySelector("footer p");
+      p.innerHTML = `Nathaniel Feltner &copy; ${year}`;
+    </script>
+  </body>
+</html>
